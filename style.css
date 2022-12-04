@@ -1,0 +1,214 @@
+*{
+    font-family: cursive;
+}
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background:white;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(23, 0, 62);
+}
+nav{
+width: 100%;
+background:rgb(125, 0, 0);
+overflow:auto ;
+}
+ul  {
+padding: 0;
+margin:0 0 0 150px;
+list-style:none;
+}
+li{
+    float: left;
+}
+img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a{
+width: 100px;
+display: block;
+padding: 20px 15px;
+text-decoration: none;
+font-family: Arial;
+color: #f2f2f2;
+text-align:center; 
+} 
+
+nav a :hover{
+background:purple;
+transition : 0.5s;
+text-transform:uppercase;   
+}
+.photo img{
+    align-items: center;
+}
+#login{
+    border: 2px solid black;
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+}
+#login p{
+    margin-right: 5px;
+}
+#login button{
+background-color: black;
+padding: 5px;
+border-radius: 4px;
+margin-top:50px   ;
+}
+#login a{
+text-decoration: none;
+ text-transform: uppercase;
+color: white;
+}
+#login a:hover{
+color: red;
+}
+#form {
+border: 2px solid black;
+background-color:rgb(3, 3, 99);
+padding: 30px;
+text-align: center;
+color: white;
+}
+#process{
+    border: 2px solid black;
+    background-color:purple;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+#yo{
+    border: 2px solid black;
+    background-color:yellow;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+#db{
+background-color: skyblue   ;
+}
+#fd{
+margin-top: 10px;
+border: solid black 2px;
+border-radius: 50px;
+padding: 15px;
+}
+#form button{
+border:solid 1px white;
+background-color: rgb(3, 3, 99);
+
+margin-top: 25px;
+padding: 10px;
+}
+#form button a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#form button a:hover{
+color: red;
+}
+.Copyright{
+
+padding: 2rem;
+position: relative;
+align-content: bottom;
+text-align: center;
+background-color: coral;
+margin-top:-2rem  ;
+}
+.Thanks img{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin:0;}
+.second{
+margin-bottom: 2rem;
+padding: 10rem 0rem;
+}
+.second h2{
+margin-top:-10rem ;
+padding: 2rem;
+text-align:center;
+background-color: black;
+text-transform: uppercase;
+color: white    ;
+}
+.second h2:hover{
+color:aqua;
+
+
+}
+.second p{
+    margin: 2rem;
+font-size: larger;
+margin-top: 12rem;
+margin-bottom: 12rem;
+color: aqua;
+text-align: center;
+text-transform: uppercase;
+word-spacing: 0.1rem;
+line-height: 2rem;}
+.Contact h2{
+background-color: aqua;
+padding: 2rem;
+text-transform: uppercase;
+font-style:italic;
+margin:-2rem;
+}
+.Contact h5{
+    background-color: aqua;
+    padding: 1rem 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: large;
+    text-align: right;
+    padding-right: 13.5rem;
+    margin:-2rem ;
+}
+.Contact p{
+    background-color: aqua;
+    color: black;
+    padding-left: 75rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding: auto;
+}
+#register {
+background-color:white;
+text-align: center;
+padding: 10rem;
+size: 10rem;
+}
+#register p{
+    font-size:x-large;
+    text-transform: uppercase;
+    color: #000;
+    font-style: oblique;
+}
+#register input{
+background-color: white;
+color: black;
+padding: 0.5rem 5rem;
+text-transform: uppercase;
+margin: 1rem;
+border-radius: 2rem;
+text-align: center;
+}
+#register button{
+    padding: 0.5rem 2rem;
+    background-color: blanchedalmond;
+    margin: 2rem;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+}
+#register a{
+    text-decoration: none;
+}

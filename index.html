@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="index.png" width="100px" alt="">
+    <nav>
+        <ul>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="#process">Donation Process</a></li>
+            <li><a href="second.html">Who can give blood</a></li>
+            <li><a href="#state">Find a donor </a></li>
+            <li><a href="#Contact">Contact us</a></li>
+        </ul>
+
+    </nav>
+
+    <h1>Blood Donation.com</h1>
+
+    <p>A social initiative</p>
+
+    <div id="login">
+
+        <form action="php">
+            <p>Donor Login</p><input type="text">
+            <br>
+            <p> Password</p> <input type="text">
+        </form>
+        <button><a href="thanks.html">Login</a></button>
+    </div>
+
+    <div id="form">
+        <h2>Find a donor</h2>
+        <h3>Which state do you live in ?</h3>
+        <form action="php">
+            <select name="state" id="state">
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+                <option value="UP">UP</option>
+                <option value="MP">MP
+                </option>
+            </select>
+
+        </form>
+        <h4>Which city do you live in ?</h4>
+        <form action="php">
+
+            <select name="city" id="city">
+                <option value="Jammu">Jammu </option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="panji">Panji</option>
+                <option value="Kanpur">Kanpur</option>
+                <option value="Bhopal">Bhopal
+                </option>
+            </select>
+        </form>
+        <h5>What is your blood group ?</h5>
+        <form action="php">
+            <select name="blood group" id="blood group">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-
+                </option>
+            </select>
+        </form>
+        <button><a href="thanks.html">Submit</a></button>
+    </div>
+    <div id="process">
+    <H1>Donation process</H1>
+
+    <p>
+        If you're donating whole blood, we'll cleanse an area on your arm and insert a brand new sterile needle for the
+        blood draw. (This feels like a quick pinch and is over in seconds.) Other types of donations, such as platelets,
+        are made using an apheresis machine which will be connected to both arms..</p>
+    </div>
+    <div id="yo">
+    <H2>Where would you like to donate?</H2>
+    <form action="php">
+        <textarea name="donate" id="db" cols="30" rows="10"></textarea><br>
+        <input type="text" name="feedback" id="fd" placeholder="Give us feedback">
+    </form>
+    </div>
+    
+    <!-- <img src="photo-1615461066841-6116e61058f4.jpeg" width="400px" alt=""> -->
+
+    <div class="Contact" id="Contact">
+        <h2>Blood Donation</h2>
+        <h5>Contact</h5>
+       <p>100 <br> blooddonation@gmail.com</p>
+    </div>
+    <div class="Copyright">
+    <p>&#169;Blood Donation website all rights reserved</p>
+    </div>
+
+</body>
+
+</html>
